@@ -20,8 +20,8 @@
 		?>
 	</header>
 
-	<div class="container article">
-		<div class="row">
+	<div class="article">
+		<div>
 			<h1 class="title">Découverte de la forêt</h1>
 		</div>
 		<div class="bloc1">
@@ -76,12 +76,14 @@
 		</div>
 	</div>
 
-	  <!-- Compiled and minified JavaScript -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+	<?php include('template_footer.php');?> 
 
-<script>$(document).ready(function(){
-      $('.parallax').parallax();
-    });
-</script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
 
-	<!-- <?php // include('footer.php');?> -->
+	<script>
+		$(document).ready(function(){
+	     	$('.parallax').parallax();
+	    });
+	</script>
+</body>
+</html>
