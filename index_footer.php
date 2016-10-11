@@ -15,20 +15,22 @@
 			<h3>Nos coordonnées</h3>
 			<p>110 rue du Colonel Fabien</p>
 			<p>92160 Antony</p>
-			<p id="telephone">Téléphone</p>
-			<p>0146746507</p>
+			<p>01 46 74 65 07</p>
+			<h3 ><a href id="avis" ="/somwhere.htm">VOS AVIS</a></h3>
+
 
 		</div>
 		<div class="footer-right">
 			<h3>
 			Newsletter
 			</h3>
-			<form action="#" method="post">
+			<form method="POST" action="add_email.php">
 
-				<input type="text" name="email" placeholder="Abonnez-vous" />
+				<input required type="email" name="email" placeholder="Abonnez-vous" />
+					<button class="button button1" type="submit">Abonnez-vous</button>			
 
 			</form>
-			<div class="button button1">Abonnez-vous !</div>
+			
 		</div>
 	</div>
 	<div id="footer-bottom">
