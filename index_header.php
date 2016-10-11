@@ -19,7 +19,7 @@
             </li>
             <li>
                 <a class="nav ecologie" href="#">
-                    Un public recyclable
+                    Ecologie
                 </a>
             </li>
             <li>
@@ -36,6 +36,7 @@
                     Fr
                 </a>
             </li>
+                <p>|<p>
             <li>
                 <a class="en" href="#">
                     En
