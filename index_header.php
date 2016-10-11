@@ -8,7 +8,7 @@
                 </a>
             </li>
             <li>
-                <a class="nav tourisme" href="#">
+                <a class="nav tourisme" href="remplissage_template.php">
                     Découverte de la forêt
                 </a>
             </li>
