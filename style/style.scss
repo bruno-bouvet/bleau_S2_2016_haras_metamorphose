@@ -1,5 +1,5 @@
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-////////////////////////// Compilez ce fichier via la commande sass main_style.scss style.css  /////////////////////////
+////////////////////////// Compilez ce fichier via la commande sass style.scss style.css  /////////////////////////
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 //// Variables ////
@@ -7,6 +7,7 @@ $tourisme-color: rgba(7, 64, 10, 0.6);
 $travail-color: rgba(140, 104, 34, 0.6);
 $ecologie-color: rgba(39, 34, 140, 0.6);
 $accessibilite-color: rgba(183, 21, 134, 0.6);
+$border-radius:3px;
 
 @mixin transition($params) {
 	-webkit-transition: $params;
@@ -20,4 +21,10 @@ $accessibilite-color: rgba(183, 21, 134, 0.6);
 @import 'index_footer';
 @import 'index_header';
 @import 'index';
+<<<<<<< HEAD
 @import '_formulaire_avis'
+=======
+@import 'template_header';
+@import 'template';
+@import 'template_footer';
+>>>>>>> marielle_template

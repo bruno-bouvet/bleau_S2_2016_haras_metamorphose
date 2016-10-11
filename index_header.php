@@ -1,14 +1,14 @@
-<header id="_index_header">
-    <a class="nav" href="#"><img id="logo" src="img/chaval.png" alt="logo"></a>
+
+    <a class="nav" href="index.php"><img id="logo" src="img/chaval.png" alt="logo"></a>
     <div id="menu">
         <ul>
             <li>
-                <a class="nav accueil" href="#">
+                <a class="nav accueil" href="index.php">
                     Accueil
                 </a>
             </li>
             <li>
-                <a class="nav tourisme" href="#">
+                <a class="nav tourisme" href="remplissage_template.php">
                     Découverte de la forêt
                 </a>
             </li>
@@ -25,6 +25,11 @@
             <li>
                 <a class="nav accessibilite" href="#">
                     Un lieu pour tous
+                </a>
+            </li>
+            <li>
+                <a class="nav contact" href="contact.php">
+                    Contact
                 </a>
             </li>
         </ul>
@@ -44,4 +49,3 @@
             </li>
         </ul>
     </div>
-</header>

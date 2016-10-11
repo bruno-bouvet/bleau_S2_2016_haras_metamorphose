@@ -1,4 +1,4 @@
-<footer id="_index_footer">
+<footer id="_template_footer">
 	<div class="footer wrapper">
 		<div class="footer-left">
 			<h3>
