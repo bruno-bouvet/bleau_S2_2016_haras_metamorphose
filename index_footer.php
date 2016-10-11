@@ -16,7 +16,7 @@
 			<p>110 rue du Colonel Fabien</p>
 			<p>92160 Antony</p>
 			<p>01 46 74 65 07</p>
-			<h3 id="avis"><a href="/somwhere.htm">VOS AVIS</a></h3>
+			<h3 ><a href id="avis" ="/somwhere.htm">VOS AVIS</a></h3>
 
 
 		</div>
@@ -26,7 +26,7 @@
 			</h3>
 			<form method="POST" action="add_email.php">
 
-				<input type="text" name="email" placeholder="Abonnez-vous" />
+				<input required type="email" name="email" placeholder="Abonnez-vous" />
 					<button class="button button1" type="submit">Abonnez-vous</button>			
 
 			</form>
