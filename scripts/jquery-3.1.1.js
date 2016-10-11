@@ -8772,7 +8772,7 @@ jQuery.extend( {
 			text: "text/plain",
 			html: "text/html",
 			xml: "application/xml, text/xml",
-			json: "application/json, text/javascript"
+			json: "application/json, text/scripts"
 		},
 
 		contents: {
@@ -9565,7 +9565,7 @@ jQuery.ajaxPrefilter( function( s ) {
 // Install scripts dataType
 jQuery.ajaxSetup( {
 	accepts: {
-		script: "text/javascript, application/javascript, " +
+		script: "text/scripts, application/scripts, " +
 			"application/ecmascript, application/x-ecmascript"
 	},
 	contents: {

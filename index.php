@@ -6,8 +6,10 @@
 
 		<?php
 		$browser = get_browser(null, true);
-		if($browser['majorver']!=0 && $browser['majorver']< 46)
-			echo '<link rel="stylesheet" type="text/css" href="style/style_mobile_and_old_version.css">';
+		if($browser && $browser['majorver'] != 0) {
+			if($browser['majorver'] < 46)
+				echo '<link rel="stylesheet" type="text/css" href="style/style_mobile_and_old_version.css">';
+		}
 		else
 			echo '<link rel="stylesheet" type="text/css" href="style/style.css">';
 		?>
@@ -22,9 +24,9 @@
 		<video id="index_video" autoplay loop muted>
 			<source src="video/video.mp4" type='video/mp4'>
 		</video>
-
-		<?php include "index_header.php";?>
-
+		<header id="_index_header">
+			<?php include "index_header.php";?>
+		</header>
 		<div id="index_corps">
 			<aside id="index_social">
 				<img class="icone-social" src="img/facebook.svg" alt="facebook">
@@ -57,8 +59,9 @@
 			</div>
 		</div>
 	</div>
-
-	<?php include "index_footer.php";?>
+	<footer id="_index_footer">
+		<?php include "index_footer.php";?>
+	</footer>	<!--  Ferme l'id #_index_footer-->
 
 	<script src="scripts/script.js"></script>
 
