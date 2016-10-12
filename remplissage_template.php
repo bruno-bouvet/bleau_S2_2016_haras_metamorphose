@@ -39,11 +39,6 @@
 				</tr>
 			</table>
 		</div>
-   	 	<div class="parallax-container">
-      		<div class="parallax">
-      			<img src="https://tse3.mm.bing.net/th?id=OIP.M647c41abdcea5ffe31e9ab3ec3621778H0&pid=Api" alt="image_template">
-      		</div>
-    	</div>
 		<div class="bloc1">
 			<table>
 				<tr>
@@ -80,10 +75,5 @@
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
 
-	<script>
-		$(document).ready(function(){
-	     	$('.parallax').parallax();
-	    });
-	</script>
 </body>
 </html>

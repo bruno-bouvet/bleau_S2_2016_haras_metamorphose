@@ -5,23 +5,27 @@
 
 #_template_footer {
 	margin-top:20px;
-	height:255px;
 	background-color: rgb(216,38,121);
 	text-align: center;
 	font-size: 1em;
 	position:relative;
 
+	.p-titre{
+		font-size:1.4em;
+		font-weight:bold;
+	}
+
 	p {
 		font-size: 1em;
 	}
 	
-	.footer_wrapper{
+	.footer-wrapper{
 	}
 	/* Colonnes footer */
 
-	.footer .footer-left,
-	.footer .footer-center,
-	.footer .footer-right {
+	.footer-left,
+	.footer-center,
+	.footer-right {
 		display: inline-block;
 		color: white;
 		vertical-align: top;
@@ -33,21 +37,21 @@
 		margin-top: 30px;
 		text-decoration: none;
 	}
-	.footer .footer-left {
+	.footer-left {
 		width: 30%;
 		/*font-size: 12px;*/
 	}
 
-	.footer .footer-center {
+	.footer-center {
 		width: 30%;
 	}
 
-	.footer .footer-right {
+	.footer-right {
 		width: 30%;
 		text-align: left;
 	}
 
-	.footer a {
+	a {
 		color: white;
 	}
 
@@ -56,12 +60,12 @@
 	#footer-bottom {
 		background-color: rgb(0, 63, 64);
 		text-align: left;
-		height:20px;
-
+		padding:0.5em;
 	}
 
 	#copyright {
 		padding-left: 5%;
+
 	}
 
 	#footer-bottom a:link, a:visited {
