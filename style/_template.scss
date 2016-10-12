@@ -16,6 +16,26 @@
 		text-align:center;
 	}
 
+	label{
+    	display: block;
+    	width: 120px;
+    	float: left;
+    	padding-top:5px;
+	}
+	
+	.message label{
+		margin-top:60px;
+	}
+	input, textarea{
+		width:200px;
+		padding:5px;
+		border-radius:$border-radius;
+	}
+
+	button{
+		margin-left:150px;
+	}
+
 	.bloc1{
 		background-color:white;
 		text-align:left;

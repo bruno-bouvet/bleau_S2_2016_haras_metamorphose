@@ -45,19 +45,19 @@
 					<div id="index_focus">
 						<div class="tourisme index_rubrique">
 							<img class="index_rubrique_img" src="img/logo.png" alt="tourisme">
-							<p>Tourisme</p>
+							<p>Découvrir</p>
 						</div>
 						<div class="travail index_rubrique">
 							<img class="index_rubrique_img" src="img/logo.png" alt="travail">
-							<p>Travail</p>
+							<p>Votre Haras</p>
 						</div>
 						<div class="ecologie index_rubrique">
 							<img class="index_rubrique_img" src="img/logo.png" alt="ecologie">
-							<p>Ecologie</p>
+							<p>Vous détendre</p>
 						</div>
 						<div class="accessibilite index_rubrique">
 							<img class="index_rubrique_img" src="img/logo.png" alt="tourisme">
-							<p>Accessibilité</p>
+							<p>Co-working</p>
 						</div>
 					</div>
 				</div>

@@ -9,22 +9,22 @@
             </li>
             <li>
                 <a class="nav tourisme" href="remplissage_template.php">
-                    Découverte de la forêt
+                    Découvrir
                 </a>
             </li>
             <li>
                 <a class="nav travail" href="#">
-                    Co-working
+                    Votre Haras
                 </a>
             </li>
             <li>
                 <a class="nav ecologie" href="#">
-                    Ecologie
+                    Vous détendre
                 </a>
             </li>
             <li>
                 <a class="nav accessibilite" href="#">
-                    Un lieu pour tous
+                    Co-Working
                 </a>
             </li>
             <li>
