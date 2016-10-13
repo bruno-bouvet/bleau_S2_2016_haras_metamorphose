@@ -78,10 +78,15 @@ body, html {
 	display: inline-block;
 	border-radius: 10px;
 	width: 180px;
-	height: 190px;
+	height: 160px;
 	margin: 5px;
 	overflow: hidden;
 	@include transition(all 1s ease);
+}
+
+.presentation{
+	margin-top:20px;
+	text-align:left;
 }
 
 .index_rubrique_img {

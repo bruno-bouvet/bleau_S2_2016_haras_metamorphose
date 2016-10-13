@@ -46,18 +46,22 @@
 						<div class="tourisme index_rubrique">
 							<img class="index_rubrique_img" src="img/logo.png" alt="tourisme">
 							<p>Découvrir</p>
+							<p class='presentation'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 						</div>
 						<div class="travail index_rubrique">
 							<img class="index_rubrique_img" src="img/logo.png" alt="travail">
 							<p>Votre Haras</p>
+							<p class='presentation'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 						</div>
 						<div class="ecologie index_rubrique">
 							<img class="index_rubrique_img" src="img/logo.png" alt="ecologie">
 							<p>Vous détendre</p>
+							<p class='presentation'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 						</div>
 						<div class="accessibilite index_rubrique">
 							<img class="index_rubrique_img" src="img/logo.png" alt="tourisme">
 							<p>Co-working</p>
+							<p class='presentation'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 						</div>
 					</div>
 				</div>

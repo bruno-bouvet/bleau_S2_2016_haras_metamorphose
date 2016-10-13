@@ -2,6 +2,5 @@
 #*#
 *.sass-cache
 style/*.scss.map
-style/style.css
 .idea
 .nbproject
